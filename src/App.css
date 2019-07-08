@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Russo+One&display=swap");
+
+.github-profile {
+  margin: 1rem;
+  /* border: 1px solid black; */
+  border-radius: 5px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+
+  padding: 10px;
+  font-family: "Montserrat", sans-serif;
+  background: #d9a7c7; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #fffcdc,
+    #d9a7c7
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #fffcdc,
+    #d9a7c7
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.hireable {
+  background: #1f4037; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #99f2c8,
+    #1f4037
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #99f2c8,
+    #1f4037
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.github-profile img {
+  width: 75px;
+  border-radius: 40px;
+}
+.github-profile .info {
+  display: inline-block;
+  margin-left: 12px;
+}
+.github-profile .info .name {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+form {
+  border: thin solid #ddd;
+  background-color: #fbfbfb;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+}
+.header {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-family: "Russo One", sans-serif;
+}
