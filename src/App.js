@@ -44,7 +44,7 @@ class Form extends React.Component {
 }
 
 const CardList = props => {
-  return props.profiles.map(profile => <Card key={profile.id} {...profile} />);
+  return props.profiles.map(profile => <Card key={profile.name} {...profile} />);
 };
 
 class Card extends React.Component {
